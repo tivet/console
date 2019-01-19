@@ -1,0 +1,29 @@
+{
+   "name"              : "tivet/console",
+   "description"       : "Tivet Console",
+   "license"           : "MIT",
+   "homepage"          : "https://lipaydi.com",
+   "support"           : {
+      "issues" : "https://github.com/tivet/framework/issues",
+      "source" : "https://github.com/tivet/framework"
+   },
+   "authors"           : [
+      {
+         "name"  : "Can Korkmaz",
+         "email" : "can@lipaydi.com"
+      }
+   ],
+   "require"           : {
+      "php": "^7.1.3",
+      "kevinlebrun/colors.php": "dev-master"
+   },
+   "autoload"          : {
+      "psr-4" : {
+         "Tivet\\Console\\" : ""
+      }
+   },
+   "config"            : {
+      "sort-packages" : true
+   },
+   "minimum-stability" : "dev"
+}
